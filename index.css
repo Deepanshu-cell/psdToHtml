@@ -2,31 +2,37 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: f;
+}
+
+* a{
+    text-decoration: none;
 }
 
 .center-main-container{
-    width: 1170px;
+    width: 1265px;
     display: block;
-    display: f;
-    margin-right: 2;
 }
 
 
 /* header  */
 .header{
     background-color: #191919;
-    height: 47px;
+    height: 42px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
+    padding: 2px;
 }
 
 .header-container{
     width: 100%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    padding: 11px;
 }
 
 .header-left{
@@ -34,7 +40,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0px;
-    margin-top: 2px;
+    margin-top: 6px;
 }
 
 .social-link{
@@ -42,27 +48,52 @@
 }
 
 .header-text-color{
-    font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     color: #8b8b8b;
-    word-spacing: 4px;
 }
 
 .account_circle{
     font-size: 20px;
 }
 
-.material-symbols-rounded{
-    color: #8b8b8b;
-    border-radius: 50%;
-}
-
 .header-right{
-    width: 200px;
     color: #8b8b8b;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
- 
+    margin-bottom: 5px;
+    /* padding: 10px; */
+    padding-left: 5px;
+    margin-right: 5px;
 }
+
+.header-right-acc a{
+    margin-right: 2px;
+    padding: 10px;
+}
+.header-right-lang{
+    display: flex;
+    align-items: center;
+    
+}
+.header-right-lang a{
+    margin-left: 10px;
+    padding: -5px;
+}
+
+#text-sign-in{
+    margin-left: 5px;
+    word-spacing: 4px;
+}
+#text-eng{
+    font-size: 12px;
+}
+
+.fa-pipe{
+    margin-left: 10px;
+}
+
+.fa-angle-down{
+    font-size:12px;
+}
+

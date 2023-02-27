@@ -9,13 +9,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0"
-    />
+    /> -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,300,0,0"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans:wght@300&display=swap"
@@ -57,14 +57,31 @@
           </div>
 
           <div class="header-right">
-            <span class="material-symbols-rounded account_circle">
-              account_circle
-            </span>
-            <span class="header-text-color text-sign-in">SIGN IN</span>
+            <div class="header-right-acc">
+              <a href="#">
+                <span
+                  ><i
+                    class="fa fa-user-circle social-link"
+                    aria-hidden="true"
+                  ></i
+                ></span>
+                <span class="header-text-color social-link" id="text-sign-in"
+                  >SIGN IN</span
+                >
+              </a>
+            </div>
             <i class="fa-sharp fa-solid fa-pipe">|</i>
-            <i class="fa-solid fa-globe"></i>
-            <span class="header-text-color">ENG</span>
-            <i class="fa-solid fa-angle-down"></i>
+            <div class="header-right-lang">
+              <a href="#"
+                ><span class="material-symbols-rounded social-link">
+                  language
+                </span></a
+              >
+              <a href="#">
+                <span class="header-text-color social-link" id="text-eng">ENG</span>
+                <span><i class="fa-solid fa-angle-down social-link"></i></span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
