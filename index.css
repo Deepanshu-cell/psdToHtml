@@ -17,17 +17,14 @@
 /* **********header styling******** */
 .header{
     background-color: #191919;
-    height: 36px;
-    width: 99.8%;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    padding: 2px;
 }
 
 .header-container{
-    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -68,7 +65,7 @@
 .header-right-acc a{
     display: flex;
     align-items: center;
-     margin-right: 6px;
+    margin-right: 6px;
 }
 
 .header-right-acc{
