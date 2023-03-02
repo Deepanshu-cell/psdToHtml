@@ -119,3 +119,78 @@
     border-left: 1px solid #8b8b8b;
 }
 
+ /* *******Carousel styling********** */
+ .carousel{
+    display: flex;
+    justify-content: center;
+    background-image: url("./carousel-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 800px;
+}
+
+.navbar{
+    padding-top: 16.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-main{
+    margin-left: 107px;
+}
+
+.title-heading{
+    font-size: 24px;
+    color: #fff;
+}
+
+/* main navbar home,blog,pages styling */
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.nav-list-item{
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 16.5px;
+    padding-top: 2px;
+}
+
+.nav-list-item a{
+    display: flex;
+    margin: 4px;
+    color: #fff;
+}
+
+.nav-name{
+    padding-top: 3px;
+    margin-right: 5px;
+}
+
+.navbar-icons{
+    display: flex;
+    margin-right: 2px;
+    margin-top: 3px;
+}
+
+.navbar-icons a{
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-top: 4px;
+}
+
+.divider-pipe{
+    height: 30px;
+    border-left: 1px solid #8b8b8b;
+}
+
+.nav-expand{
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+#shopping_cart{
+    padding-left: 3px;
+}
