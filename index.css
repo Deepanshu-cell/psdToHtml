@@ -142,6 +142,7 @@
 .title-heading{
     font-size: 24px;
     color: #fff;
+    padding-top: 1px;
 }
 
 /* main navbar home,blog,pages styling */
@@ -193,4 +194,12 @@
 
 #shopping_cart{
     padding-left: 3px;
+}
+
+/* main carousel content styling */
+.carousel-main{
+    padding-top: 248px;
+    display: flex;
+    flex-direction: column;
+
 }
