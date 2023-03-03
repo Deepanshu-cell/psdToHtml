@@ -127,6 +127,7 @@
     background-repeat: no-repeat;
     background-position: center;
     max-height: 800px;
+ 
 }
 
 .navbar{
@@ -136,7 +137,7 @@
 }
 
 .navbar-main{
-    margin-left: 107px;
+    margin-left: 81px;
 }
 
 .title-heading{
@@ -151,10 +152,15 @@
     list-style: none;
 }
 
+.nav-active-link{
+    border-bottom: 4.8px solid rgb(255,64,129);
+    padding-bottom: 17px;
+}
+
 .nav-list-item{
     font-size: 14px;
     font-weight: bold;
-    margin-right: 16.5px;
+    margin-right: 6px;
     padding-top: 2px;
 }
 
@@ -162,11 +168,11 @@
     display: flex;
     margin: 4px;
     color: #fff;
+    padding-left: 10px;
 }
 
 .nav-name{
     padding-top: 3px;
-    margin-right: 5px;
 }
 
 .navbar-icons{
@@ -190,6 +196,7 @@
 .nav-expand{
     font-size: 20px;
     padding-top: 2px;
+    padding-left: 5px;
 }
 
 #shopping_cart{
@@ -198,8 +205,103 @@
 
 /* main carousel content styling */
 .carousel-main{
-    padding-top: 248px;
+    padding-top: 212px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
 
+.carousel-main .para-1{
+    color: #8b8b8b;
+    font-size: 20.5px;
+    font-weight:500;
+}
+
+.carousel-main .para-2-container{
+    margin-top: 13px;
+}
+
+.carousel-main .para-2{
+    color: #fff;
+    font-size: 42px;
+    font-weight:800;
+    letter-spacing: 1px;
+}
+
+.btn-read-more{
+    color: #fff;
+    background-color: rgba(48,63,159,255);
+    font-size: 18px;
+    font-weight:500;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 0px;
+    margin-top: 29px;
+    cursor: pointer;
+}
+
+.caoursel-details{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.image-details-container{
+    padding-left: 523px;
+}
+.image-details-container img{
+    padding-left: 35px;
+}
+
+.image-details-container .image-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 12px;
+    word-spacing: 1px;
+    letter-spacing: 0.3px;
+    padding-left: 15px;
+}
+
+.image-details-container .image-desc{
+    color: #8b8b8b;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.comment-like-container{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 34px;
+    margin-right: 9px;
+}
+.comment-like-link{
+    color: #8b8b8b;
+
+}
+
+.comments a{
+    display: flex;
+    align-items: center;
+}
+.like a{
+    display: flex;
+    align-items: center;
+}
+
+.comment-like-container .comments{
+    margin-right: 32px;
+}
+
+#comments_icon{
+    margin-right: 7px;
+    font-size: 15px;
+}
+
+#like_icon{
+    margin-right: 7px;
+    font-size: 15px;
 }
