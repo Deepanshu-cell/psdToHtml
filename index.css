@@ -142,8 +142,11 @@
 
 .title-heading{
     font-size: 24px;
-    color: #fff;
     padding-top: 1px;
+}
+
+.title-heading a{
+    color: #fff;
 }
 
 /* main navbar home,blog,pages styling */
