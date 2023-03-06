@@ -328,3 +328,23 @@
     word-spacing: 2px;
 }
 
+
+.sort-blog-content{
+    margin-left: 22px;
+}
+
+.sort-blog-buttons{
+    background-color: rgba(245, 245, 245, 255);
+    padding: 7px 27px 7px 27px;
+    border-radius: 25px;
+    margin-right: 12px;
+    border: 0px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.sort-blog-content .active-button{
+    border: 1px solid rgba(48,63,159,255);
+    color: rgba(48,63,159,255);
+    background-color: #fff;
+}
