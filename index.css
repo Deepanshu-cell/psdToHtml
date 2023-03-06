@@ -125,9 +125,9 @@
     justify-content: center;
     background-image: url("./carousel-image.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    max-height: 800px;
- 
+    height: 800px;
 }
 
 .navbar{
@@ -149,7 +149,7 @@
     color: #fff;
 }
 
-/* main navbar home,blog,pages styling */
+/************* main navbar home,blog,pages styling *****************/
 .nav-list{
     display: flex;
     list-style: none;
@@ -206,7 +206,7 @@
     padding-left: 3px;
 }
 
-/* main carousel content styling */
+/************ main carousel content styling ***********/
 .carousel-main{
     padding-top: 212px;
     display: flex;
@@ -246,14 +246,12 @@
     cursor: pointer;
 }
 
-.caoursel-details{
-    margin-top: 80px;
-    margin-bottom: 65px;
-}
+.caoursel-details{margin-top: 80px;margin-bottom: 65px;}
 
 .image-details-container{
     padding-left: 523px;
 }
+
 .image-details-container img{
     padding-left: 35px;
 }
@@ -309,7 +307,7 @@
     font-size: 15px;
 }
 
-/* sort blog container styling */
+/******* sort blog container styling *******/
 .sort-blog-container{
     display: flex;
     justify-content: center;
@@ -324,7 +322,7 @@
 .sort-blog .sort-blog-title{
     font-size: 11px;
     font-weight: 800;
-    padding-top: 7px;
+    padding-top: 1px;
     word-spacing: 2px;
 }
 
@@ -340,11 +338,16 @@
     margin-right: 12px;
     border: 0px;
     font-size: 12px;
-    margin-top: 5px;
+    cursor: pointer;
 }
 
 .sort-blog-content .active-button{
     border: 1px solid rgba(48,63,159,255);
     color: rgba(48,63,159,255);
     background-color: #fff;
+}
+
+/* post and searching style */
+.post-search-container{
+    background-color: rgba(245, 245, 245, 255);
 }
