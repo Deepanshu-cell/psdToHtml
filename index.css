@@ -363,11 +363,12 @@
 }
 
 .post-lifestyle .image-container{
-    background-image: url('lisfe-style-pic.jpg');height: 420px;background-position: center;background-repeat: no-repeat;color: #fff;
+    background-image: url('lisfe-style-pic.jpg');height: 420px;background-position: center;
+    background-repeat: no-repeat;color: #fff;
 }
 
 .play-icon{
-        font-size: 60px;position: relative;left: 380px;top: 182px;
+        font-size: 60px;position: relative;left: 380px;top: 182px;cursor: pointer;
 }
 
 .image-details{
@@ -378,8 +379,7 @@
 }
 
 .image-details .comment-like-span a{
-    color: #fff;
-    display: flex;
+    color: #fff;display: flex;
 }
 
 .image-details .comment-like-span {
@@ -416,6 +416,41 @@
 .post-details .post-details-para{
     font-size: 16px;margin-top: 8px;word-spacing: 2px;
     font-family: 'Open Sans', sans-serif;font-weight: bold;
+}
+
+.post-lifestyle .acc-details{
+    position: relative;background-color: #ffff;top: 110px;
+}
+
+.profile-container{
+    display: flex;
+}
+
+.profile-container .profile-image{
+    margin: 20px 8px 20px 20px;
+}
+
+.profile-image-details h5{
+    font-family: 'Montserrat', sans-serif;font-size: 14px;font-weight: 600;
+    
+}
+
+.profile-image-details {
+    margin-top: 25px;
+    
+}
+.profile-image-details .date{
+    font-family: 'Open Sans', sans-serif;display: flex;font-size: 12px;font-weight: 600;color: #8b8b8b;
+    margin-top: 6px;
+    
+}
+
+.acc-details{
+    display: flex;align-items: center;justify-content: space-between;
+}
+
+.acc-details .vertical-dots{
+    margin-right: 12px;margin-top: 1px;
 }
 
 
@@ -501,7 +536,7 @@
 }
 
 .social-media-container span{
-    height: 34px;width: 34px;border-radius: 50%;display: inline-block;color: #fff;
+    height: 34px;width: 34px;border-radius: 50%;display: inline-block;color: #fff;cursor: pointer;
 }
 
 .social-media-container span i{
@@ -509,29 +544,23 @@
 }
 
 .facebook-icon i{
-    left: 13px;
-    top: 7px;
+    left: 13px;top: 7px;
 }
 .twitter-icon i{
-    left: 10px;
-    top: 6px;
+    left: 10px;top: 6px;
 }
 .vk-icon i{
-    left: 7.5px;
-    top: 6px;
+    left: 7.5px;top: 6px;
 }
 .pinterest-icon i{
-    left: 9.5px;
-    top: 7px;
+    left: 9.5px;top: 7px;
 }
 
 .t-icon i{
-    left: 10.5px;
-    top: 7px;
+    left: 10.5px;top: 7px;
 }
 .dribble-icon i{
-    left: 9.5px;
-    top: 7px;
+    left: 9.5px;top: 7px;
 }
 
 .social-media-container .facebook-icon{
@@ -615,11 +644,12 @@
 }
 
 .tags-details{
-    margin-top: 7px;
+    margin-top: 14px;
 }
 
 .tags-details button{
-    background-color: rgba(238, 238, 238, 255);border: 0px;padding: 8px;margin:10px 10px 10px 0px;border-radius: 5px;
+    background-color: rgba(238, 238, 238, 255);border: 0px;padding: 6px 16px 6px 17px ;margin:5px 10px 5px 0px;
+    border-radius: 5px;font-family: 'Open Sans', sans-serif;font-weight: bold;
 }
 
 .tags-details >div{
