@@ -611,7 +611,7 @@
 
 }
 .OR-divider div{
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid black;height: 17px;width: 125px;
 }
 
 .OR-divider span{
