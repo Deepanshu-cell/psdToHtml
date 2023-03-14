@@ -544,6 +544,7 @@
 /***** searching  ************/
 .search-filter-container{
     background-color: #fff;padding-left: 40px;padding-top: 17px;position: relative;left: 859px;width: 54%;
+    height: 100%;
 }
 
 .search-inside-container{
@@ -611,7 +612,7 @@
 
 }
 .OR-divider div{
-    border-bottom: 0.5px solid black;height: 17px;width: 125px;
+    border-bottom: 0.5px solid black;height: 18px;width: 125px;
 }
 
 .OR-divider span{
@@ -710,6 +711,10 @@
 
 .date-comment{
     font-family: 'Open Sans', sans-serif;display: flex;margin-left: 15px;font-size: 12px;
+}
+
+.date-comment span{
+    white-space: nowrap;
 }
 
 .date-comment .question_answer{
