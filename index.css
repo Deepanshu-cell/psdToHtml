@@ -564,9 +564,12 @@
 .search-bar-container{
     margin-top: 7px;
 }
+
+.search-bar-container .search-icon-button{
+    position: absolute;left: 272px;top: 30px;border: 0px;
+}
 .search-icon-background{
-    height: 33px;width: 33px;background-color: rgba(255, 64 , 129, 255);border-radius: 50%;display: inline-block;position: absolute;
-    left: 272px;top: 30px;
+    height: 33px;width: 33px;background-color: rgba(255, 64 , 129, 255);border-radius: 50%;display: inline-block;
 }
 
 .search-icon{
@@ -582,17 +585,22 @@
 }
 
 .categories-main a{
-    border-top: 0.5px solid rgb(203 203 203);display: flex;justify-content: space-between;height: 45px;align-items: center;font-size: 14px;
-    color: #191919;
+    border-top: 0.5px solid rgb(203 203 203);display: flex;justify-content: space-between;align-items: center;font-size: 14px;
+    color: #191919;height: 41.5px;
 }
 
 .categories-main a span{
-    font-family: 'Open Sans', sans-serif;font-weight: 600;
+    font-family: 'Open Sans', sans-serif;font-weight: 600;margin: 10px 0px 11.2px 0px;
+}
+
+.categories-name-span{
+    letter-spacing: 0.8px;
 }
 
 /***** SUBSCRIBE   *******/
 .subscribe-container{
-    margin-top: 2px;
+    margin-top: 19px;
+    margin-left: 1px;
 }
 
 .subscribe-form *{
@@ -604,7 +612,7 @@
 }
 
 .subscribe-form button{
-    padding: 12px 84px 13px 91px;color: #fff;background-color: rgba(48,63,159,255);border: 0px;border-radius: 5px;margin-top: 4px;
+    padding: 12px 84px 13px 90px;color: #fff;background-color: rgba(48,63,159,255);border: 0px;border-radius: 5px;margin-top: 4px;
     font-family: 'Montserrat', sans-serif;font-size: 15px;letter-spacing: 2px;
 }
 
@@ -629,7 +637,7 @@
 }
 
 .social-media-container span{
-    height: 34px;width: 34px;border-radius: 50%;display: inline-block;color: #fff;cursor: pointer;
+    height: 34px;width: 34px;border-radius: 50%;display: inline-block;color: #fff;
 }
 
 .social-media-container span i{
@@ -690,12 +698,12 @@
 
 .tab-post-widget .active{
     color: #fff;background-color: rgba(48,63,159,255);border: 0px;font-family: 'Montserrat', sans-serif;font-size: 12px;
-    padding: 10px 0px 10px 0px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;
+    padding: 11px 0px 10px 0px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;
 }
 
 .tab-post-widget .non-active{
     color: rgba(48,63,159,255);border: 0px;font-family: 'Montserrat', sans-serif;font-size: 12px;background-color: #fff;
-    padding: 10px 0px 10px 0px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;
+    padding: 11px 0px 10px 0px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;
 }
 
 .tab-post-container{
