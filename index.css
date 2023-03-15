@@ -352,17 +352,16 @@
 
 /*********** post and searching style ****************/
 .post-search-container{ background-color: rgba(245, 245, 245, 255);display: grid;
-    background-color: rgba(245, 245, 245, 255);
-    padding-top: 30px;
-    height: 1500px;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
+    background-color: rgba(245, 245, 245, 255);padding-top: 30px;height: 1500px;display: flex;
+    justify-content: center;overflow: hidden;
 }
 
 .post-container{
-    position: absolute;
-    width: 819px;
+    position: absolute;width: 819px;
+}
+
+.post-container > div{
+    box-shadow: 0px 1px 4px -2px #8b8b8b;
 }
 
 /* *************POST LIFESTYLE*************** */
