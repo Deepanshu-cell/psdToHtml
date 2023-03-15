@@ -413,13 +413,13 @@
 }
 
 .post-details{
-    padding: 16px 0px 19px 21px;border-bottom: 0.5px solid rgb(203 203 203);background-color: #fff;
+    padding: 16px 0px 16px 21px;border-bottom: 0.5px solid rgb(203 203 203);background-color: #fff;
 }
 .post-details .post-details-heading{
     font-size: 18px;word-spacing: 2px;
 }
 .post-details .post-details-para{
-    font-size: 16px;margin-top: 8px;word-spacing: 2px;
+    font-size: 16px;margin-top: 8px;word-spacing: 3px;line-height: 23.5px;
     font-family: 'Open Sans', sans-serif;font-weight: bold;
 }
 
@@ -429,6 +429,10 @@
 
 .profile-container{
     display: flex;
+}
+
+.profile-container .profile-image-link{
+    margin-left: 21px;
 }
 
 .profile-container .profile-image{
@@ -446,12 +450,12 @@
 }
 .profile-image-details .date{
     font-family: 'Montserrat', sans-serif;display: flex;font-size: 12px;font-weight: 600;color: #8b8b8b;
-    margin-top: 6px;
+    margin-top: 7px;
     
 }
 
 .acc-details .vertical-dots{
-    margin-right: 10px;margin-top: 1px;
+    margin-right: 10px;
 }
 
 /* *************POST INSPIRATION*************** */
@@ -500,10 +504,10 @@
 }
 
 .post-inspiration .post-details-inspiration .post-details-heading{
-    font-size: 15px;word-spacing: 2px;font-weight: 800;font-family: 'Montserrat', sans-serif;
+    font-size: 15px;word-spacing: 2px;font-weight: 800;font-family: 'Montserrat', sans-serif;letter-spacing: 0.3px;
 }
 .post-inspiration .post-details-inspiration .post-details-para{
-    font-size: 14px;margin-top: 8px;word-spacing: 2px;
+    font-size: 14px;margin-top: 8px;word-spacing: 4px;
     font-family: 'Open Sans', sans-serif;font-weight: bold;
 }
 
@@ -512,7 +516,7 @@
 }
 
 .profile-image-inspiration{
-    padding-left: 21px;padding-top: 3px;
+    padding-top: 3px;
 }
 
 .profile-image-details-inspiration{
@@ -520,14 +524,13 @@
     
 }
 .profile-image-details-inspiration h5{
-    font-family: 'Montserrat', sans-serif;font-size: 14px;font-weight: 600;
+    font-family: 'Montserrat', sans-serif;font-size: 14px;font-weight: 600;word-spacing: 2px;
     
 }
 
 .profile-image-details-inspiration .date{
     font-family: 'Open Sans', sans-serif;display: flex;font-size: 12px;font-weight: 600;color: #8b8b8b;
-    margin-top: 6px;
-    
+    margin-top: 6px;word-spacing: 5px;letter-spacing: 0.3px;
 }
 
 .vertical-dots-inspiration{
@@ -682,7 +685,7 @@
 }
 
 .tab-post-widget .recent-popular{
-    display: grid;grid-template-columns: 50% 50%;border: 0.5px solid rgba(48,63,159,255);height: 38px;border-radius: 5px;margin-top: 19px;
+    display: grid;grid-template-columns: 50% 50%;border: 0.5px solid rgba(48,63,159,255);height: 38px;border-radius: 5px;margin-top: 19px;margin-left: 2px;
 }
 
 .tab-post-widget .active{
