@@ -734,11 +734,39 @@
 
 /* ********** Image bar *********** */
 .image-bar{
-    margin-bottom: 200px;display: flex;
+    display: flex;
 }
 
 .image-bar img{
     width: 12.5%;
+}
+
+/* *******Subscribe module ******* */
+.subscribe-module{
+    background-image: url('./images/subscribe-module-background.png');background-position: center;
+    background-size: cover;background-repeat: no-repeat;height: 200px;margin-bottom: 200px;display: flex;justify-content: center;
+}
+
+.subscribe-module-inside{
+    display: flex;height: 100%;align-items: center;
+}
+
+.subscribe-module-inside .subscribe-heading{
+    color: #fff;font-size: 42px;font-weight: 800;letter-spacing: 1px;padding-bottom: 5px;word-spacing: 4px;
+}
+
+.subscribe-module .subscribe-module-form{
+    margin-left: 41px;
+}
+
+.subscribe-module-form .subscribe-email-input{
+    background: #25292a;border: 0.5px solid #8b8b8b;padding: 9px 69px 11px 19px;font-weight: 600;
+    border-radius: 20px;color: #fff;font-family: 'Open Sans', sans-serif;font-size: 16px;letter-spacing: 1px;
+}
+
+.subscribe-module-form .subscribe-submit-button{
+    padding: 12px 32px 13px 32px;color: #fff;background-color: rgba(48,63,159,255);border: 0px;
+    border-radius: 25px;margin-left: 26px;font-size: 16px;letter-spacing: 1px;
 }
 
 /***** searching  ************/
