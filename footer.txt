@@ -1,0 +1,48 @@
+
+
+  <!-- footer nav-bar -->
+  <div class="footer-navbar-container"> 
+    <div class="center-main-container">
+      <div class="footer-navbar-main">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-list-item">
+            <a href="">HOME</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a href="">PORTFOLIO</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a href="">BLOG</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a href="">PAGES</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a href="">SHOP</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a href="">COMPONENTS</a>
+          </li>
+          <li class="footer-nav-list-item">
+            <a href="">FEATURES</a>
+          </li>
+        </ul>
+        <div class="footer-search-bar-container">
+          <input type="text" placeholder="Search" class="footer-search-bar">
+          <button type="submit" class="search-icon-btn">
+            <span class="material-icons footer-search-icon">search</span>
+          </button>
+        </div>
+
+          <a href="#" class="footer-lang-container">
+            <span class="material-icons social-link footer-lang-icon">
+            language
+          </span>
+          <span class="footer-text-color">ENG</span>
+          <span class="material-icons social-link footer-expand-more">
+            expand_more
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>

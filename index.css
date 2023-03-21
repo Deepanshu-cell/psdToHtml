@@ -421,7 +421,7 @@
 }
 .post-details .post-details-para{
     font-size: 16px;margin-top: 7px;word-spacing: 3px;line-height: 24px;font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .post-lifestyle .acc-details{
@@ -510,7 +510,7 @@
 }
 .post-inspiration .post-details-inspiration .post-details-para{
     font-size: 14px;margin-top: 8px;word-spacing: 4px;line-height: 21px;
-    font-family: 'Open Sans', sans-serif;font-weight: bold;
+    font-family: 'Open Sans', sans-serif;font-weight: 500;
 }
 
 .post-inspiration .acc-details{
@@ -610,7 +610,7 @@
 }
 
 .grid-post-1-details .para{
-    font-family: 'Open Sans', sans-serif;font-weight: 600;font-size: 14px;line-height: 21px;
+    font-family: 'Open Sans', sans-serif;font-weight: 500;font-size: 14px;line-height: 21px;
     margin-top: 5px;word-spacing: 4px;
 }
 
@@ -698,7 +698,7 @@
 }
 
 .grid-post-2-details .para{
-    font-family: 'Open Sans', sans-serif;font-weight: 600;font-size: 16px;line-height: 26px;
+    font-family: 'Open Sans', sans-serif;font-weight: 500;font-size: 16px;line-height: 26px;
     margin-top: 6px;word-spacing: 4px;
 }
 
@@ -730,43 +730,6 @@
 
 .more-arrow span{
     color: #3f51b5;
-}
-
-/* ********** Image bar *********** */
-.image-bar{
-    display: flex;
-}
-
-.image-bar img{
-    width: 12.5%;
-}
-
-/* *******Subscribe module ******* */
-.subscribe-module{
-    background-image: url('./images/subscribe-module-background.png');background-position: center;
-    background-size: cover;background-repeat: no-repeat;height: 200px;margin-bottom: 200px;display: flex;justify-content: center;
-}
-
-.subscribe-module-inside{
-    display: flex;height: 100%;align-items: center;
-}
-
-.subscribe-module-inside .subscribe-heading{
-    color: #fff;font-size: 42px;font-weight: 800;letter-spacing: 1px;padding-bottom: 5px;word-spacing: 4px;
-}
-
-.subscribe-module .subscribe-module-form{
-    margin-left: 41px;
-}
-
-.subscribe-module-form .subscribe-email-input{
-    background: #25292a;border: 0.5px solid #8b8b8b;padding: 9px 69px 11px 19px;font-weight: 600;
-    border-radius: 20px;color: #fff;font-family: 'Open Sans', sans-serif;font-size: 16px;letter-spacing: 1px;
-}
-
-.subscribe-module-form .subscribe-submit-button{
-    padding: 12px 32px 13px 32px;color: #fff;background-color: rgba(48,63,159,255);border: 0px;
-    border-radius: 25px;margin-left: 26px;font-size: 16px;letter-spacing: 1px;
 }
 
 /***** searching  ************/
@@ -819,10 +782,6 @@
     font-family: 'Open Sans', sans-serif;font-weight: 600;margin: 10px 0px 11.2px 0px;
 }
 
-.categories-name-span{
-    letter-spacing: 0.8px;
-}
-
 /***** SUBSCRIBE   *******/
 .subscribe-container{
     margin-top: 15px;
@@ -834,7 +793,7 @@
 }
 
 .subscribe-form input{
-    padding: 11px 73px 10px 15px;border-radius: 5px;border: 1px solid rgb(203 203 203);margin-top: 10px;
+    padding: 11px 66px 10px 15px;border-radius: 5px;border: 1px solid rgb(203 203 203);margin-top: 10px;
 }
 
 .subscribe-form button{
@@ -844,7 +803,7 @@
 }
 
 .subscribe-form div{
-    font-weight: 600;margin: 11px 0px 10px 0px;
+    font-weight: 500;margin: 11px 0px 10px 0px;
 }
 
 .OR-divider {
@@ -974,7 +933,7 @@
 }
 
 .img-details .post-about{
-    width: 97%;margin-left: 15px;font-size: 14px;font-weight: 600;margin-top: 3px;
+    width: 97%;margin-left: 15px;font-size: 14px;font-weight: 600;margin-top: 3px;line-height: 20px;
 }
 
 
@@ -988,7 +947,144 @@
 }
 
 .tags-details button{
-    background-color: rgba(238, 238, 238, 255);border: 0px;padding: 6px 16px 6px 17px;margin: 5px 7px 5px 0px;
-    border-radius: 5px;font-family: 'Open Sans', sans-serif;font-weight: bold;letter-spacing: 0.8px;
+    background-color: rgba(238, 238, 238, 255);border: 0px;padding: 6px 14px 6px 17px;margin: 5px 5px 5px 0px;
+    border-radius: 5px;font-family: 'Open Sans', sans-serif;font-weight: 500;letter-spacing: 0.5px;
+    font-size: 14px;
 }
 
+
+/* ********** Image bar *********** */
+.image-bar{
+    display: flex;
+}
+
+.image-bar img{
+    width: 12.5%;
+}
+
+/* *******Subscribe module ******* */
+.subscribe-module{
+    background-image: url('./images/subscribe-module-background.png');background-position: center;
+    background-size: cover;background-repeat: no-repeat;height: 200px;display: flex;justify-content: center;
+}
+
+.subscribe-module-inside{
+    display: flex;height: 100%;align-items: center;
+}
+
+.subscribe-module-inside .subscribe-heading{
+    color: #fff;font-size: 42px;font-weight: 900;letter-spacing: 1.3px;padding-bottom: 5px;
+}
+
+.subscribe-module .subscribe-module-form{
+    margin-left: 45px;
+}
+
+.subscribe-module-form .subscribe-email-input{
+    background: rgb(37, 41, 42);border: 0.5px solid rgb(139, 139, 139);padding: 9px 69px 11px 19px;
+    font-weight: 300;border-radius: 20px;color: rgb(255, 255, 255);font-family: "Open Sans", sans-serif;
+    font-size: 16px;letter-spacing: 1px;
+}
+
+.subscribe-module-form .subscribe-submit-button{
+    padding: 12px 32px 13px 32px;color: #fff;background-color: rgba(48,63,159,255);border: 0px;
+    border-radius: 25px;margin-left: 26px;font-size: 16px;letter-spacing: 1px;
+}
+
+/*********** footer **************/
+.footer{
+    height: 540px;background-color:#191919;display: flex;justify-content: center;
+}
+
+.footer-inside-container{
+    height: 100%;display: flex;
+    margin-top: 46px;
+}
+
+.footer-inside-container div{
+    height: 415px;
+}
+.footer-inside-container .widget-heading{
+    color: #fff;font-size: 17px;font-weight: 600;
+}
+
+/* ******Accordian*********  */
+.accordion{
+    margin-top: 27px;
+}
+
+.accordion li{
+    color: #8b8b8b;list-style: none;border:0.2px solid #8b8b8b;border-radius: 5px;margin-bottom: 5px;
+}
+.accordion li label{
+    display: flex;align-items: center;justify-content: space-between;padding: 8px 6px 6px 14px;
+    width: 247px;
+}
+
+.accordion li label +input[type='radio']{
+    display: none;
+}
+.accordion .label-name{
+    font-family: 'Open Sans', sans-serif;font-weight: 600;font-size: 14px;
+}
+
+.accordion .label-icon{
+    font-size: 24px;margin-right: 2px;margin-top: 2px;
+}
+
+.accordion .label-icon-btn{
+    background: transparent;border: 0px;color: #8b8b8b;
+}
+
+/**************** footer nav-bar ************/
+.footer-navbar-container{
+    height: 80px;background-color: #303030;margin-bottom: 200px;display: flex;justify-content: center;
+}
+
+.footer-navbar-main{
+    height: 100%;display: flex;align-items: center;
+}
+
+.footer-navbar-main .footer-nav-list{
+    list-style-type: none;display: flex;padding-bottom: 2px;
+}
+
+.footer-nav-list .footer-nav-list-item{
+    margin-right: 42px;
+}
+.footer-nav-list .footer-nav-list-item a{
+    color: #fff;font-weight: 700;font-size: 12px;
+}
+
+.footer-navbar-main .footer-search-bar{
+    background: transparent;border: 0.5px solid #8b8b8b;border-radius: 20px;padding: 8px 23px 7px 19px;
+    font-size: 14px;color: #fff;position: relative;margin-left: 136px;letter-spacing: 0.8px;
+}
+
+.footer-search-bar-container{
+    position: relative;
+}
+
+.footer-search-bar-container .search-icon-btn{
+    position: absolute;background: transparent;border: 0px;color: #8b8b8b;top: 8px;right: 11px;
+}
+
+.search-icon-btn .footer-search-icon{
+    font-size: 20px;
+}
+
+.footer-lang-container{
+    display: flex;align-items: center;margin-left: 60px;
+}
+
+.footer-lang-container .footer-lang-icon{
+    font-size: 19px;margin-right: 5.5px;margin-left: 9px;
+}
+
+.footer-lang-container .footer-text-color{
+    font-size: 11px;color: #8b8b8b;
+}
+
+.footer-lang-container .footer-expand-more{
+    width: 15.5px;font-size: 20px;
+}
