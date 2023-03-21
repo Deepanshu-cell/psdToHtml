@@ -997,15 +997,17 @@
 }
 
 .footer-inside-container{
-    height: 100%;display: flex;
-    margin-top: 46px;
+    height: 100%;display: grid;
+    margin-top: 46px;grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap: 2.7%;
+    margin-left: 1px;
 }
 
-.footer-inside-container div{
+.footer-inside-container > div{
     height: 415px;
 }
 .footer-inside-container .widget-heading{
-    color: #fff;font-size: 17px;font-weight: 600;
+    color: #fff;font-size: 17px;font-weight: 600;letter-spacing: 1px;word-spacing: 1px;
 }
 
 /* ******Accordian*********  */
@@ -1013,27 +1015,99 @@
     margin-top: 27px;
 }
 
-.accordion li{
+.accordion > li{
     color: #8b8b8b;list-style: none;border:0.2px solid #8b8b8b;border-radius: 5px;margin-bottom: 5px;
 }
+
+.accordion > li .content{
+    list-style: none;max-height: 0px;
+    overflow: hidden;transition: max-height 0.5s;
+}
+
+.accordion li label +input[type='radio']:checked + .content{
+    padding: 14px 5px 2px 11px;border-top: 0.2px solid #8b8b8b;max-height: 200px;
+}
+
+.accordion > li .content li{
+    font-size: 14px;margin-bottom: 18px;
+}
+
+.accordion > li .content li a{
+    color: #8b8b8b;
+}
+
 .accordion li label{
-    display: flex;align-items: center;justify-content: space-between;padding: 8px 6px 6px 14px;
-    width: 247px;
+    display: flex;align-items: center;justify-content: space-between;padding: 7px 7px 7px 14px;
 }
 
 .accordion li label +input[type='radio']{
     display: none;
 }
+
 .accordion .label-name{
     font-family: 'Open Sans', sans-serif;font-weight: 600;font-size: 14px;
 }
 
 .accordion .label-icon{
-    font-size: 24px;margin-right: 2px;margin-top: 2px;
+    font-size: 24px;margin-right: 1px;margin-top: 2px;
 }
 
 .accordion .label-icon-btn{
     background: transparent;border: 0px;color: #8b8b8b;
+}
+
+/* *************** twitter-post-widget *********** */
+.twitter-post-container{
+    margin-top: 24px;margin-bottom: 14px;
+}
+
+.twitter-post{
+    padding-bottom: 7px;margin-bottom: 11px;
+}
+
+.twitter-post:not(:last-child){
+    border-bottom: 0.1px solid #514d4d;
+}
+
+.twitter-post .fa-twitter{
+    color: #55acee;font-size: 22px;margin-top: 1px;
+}
+
+.twitter-post .twitter-post-details{
+    font-family: 'Open Sans', sans-serif;font-size: 14px;margin-left: 15px;margin-left: 15px;
+    line-height: 20.7px;font-weight: 600;
+}
+
+.twitter-post .social-link{
+    display: flex;margin-left: 9px;
+}
+
+.twitter-post .time-arrow-actions *{
+    color: #8b8b8b;
+}
+
+.twitter-post .time-arrow-actions{
+    font-size: 12px;display: flex;align-items: center;margin-top: 4px;margin-bottom: 3px;
+}
+
+.twitter-post .time-arrow-actions .time-stamp{
+    font-family: 'Open Sans', sans-serif;word-spacing: 2px;
+}
+
+.twitter-post .time-arrow-actions .arrow{
+    font-size: 20px;margin-left: 9px;margin-top: 2px;
+}
+
+.time-arrow-actions .actions a{
+    text-decoration: underline;margin-right: 13px;font-family: 'Open Sans', sans-serif;
+}
+
+.time-arrow-actions .actions{
+    display: flex;margin-left: 7px;
+}
+
+.twitter-social-widget-container .social-media-container{
+    margin-top: 18px;margin-left: -3px;
 }
 
 /**************** footer nav-bar ************/

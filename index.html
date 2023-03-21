@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  <script src="./script.js"></script>
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link
@@ -946,10 +947,10 @@
           <h3 class="widget-heading">PAGES WIDGET</h3>
 
           <ul class="accordion">
-            <li>
+            <li class="accordion-li">
               <label for="HOME">
                   <span class="label-name">HOME</span>
-                  <button class="label-icon-btn">
+                  <button class="label-icon-btn" onclick="handleClick(this)">
                     <span class="material-icons label-icon">
                       add
                     </span>
@@ -957,31 +958,55 @@
               </label>
               <input type="radio" name="accordion" id="HOME">
               <ul class="content">
-                <!-- <li>Service</li>
-                <li>FAQ</li>
-                <li>About</li> -->
+                <li>
+                  <a href="">
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    FAQ
+                  </a>
+                  </li>
+                <li>
+                  <a href="">
+                    About
+                  </a>
+                </li>
               </ul>
             </li>
-            <li>
+            <li class="accordion-li">
               <label for="PAGES">
                 <span class="label-name">PAGES</span>
-                <button class="label-icon-btn">
+                <button class="label-icon-btn" onclick="handleClick(this)">
                   <span class="material-icons label-icon">
                     remove
                   </span>
                 </button>
               </label>
-              <input type="radio" name="accordion" id="PAGES">
+              <input type="radio" name="accordion" id="PAGES" checked>
               <ul class="content">
-                <!-- <li>Service</li>
-                <li>FAQ</li>
-                <li>About</li> -->
+                <li>
+                  <a href="">
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    FAQ
+                  </a>
+                  </li>
+                <li>
+                  <a href="">
+                    About
+                  </a>
+                </li>
               </ul>
             </li>
-            <li>
+            <li class="accordion-li">
               <label for="PORTFOLIO">
                 <span class="label-name">PORTFOLIO</span>
-                <button class="label-icon-btn">
+                <button class="label-icon-btn" onclick="handleClick(this)">
                   <span class="material-icons label-icon">
                     add
                   </span>
@@ -989,15 +1014,27 @@
               </label>
               <input type="radio" name="accordion" id="PORTFOLIO">
               <ul class="content">
-                <!-- <li>Service</li>
-                <li>FAQ</li>
-                <li>About</li> -->
+                <li>
+                  <a href="">
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    FAQ
+                  </a>
+                  </li>
+                <li>
+                  <a href="">
+                    About
+                  </a>
+                </li>
               </ul>
             </li>
-            <li>
+            <li class="accordion-li">
               <label for="BLOG">
                 <span class="label-name">BLOG</span>
-                <button class="label-icon-btn">
+                <button class="label-icon-btn" onclick="handleClick(this)">
                   <span class="material-icons label-icon">
                     add
                   </span>
@@ -1006,15 +1043,27 @@
 
               <input type="radio" name="accordion" id="BLOG">
               <ul class="content">
-                <!-- <li>Service</li>
-                <li>FAQ</li>
-                <li>About</li> -->
+                <li>
+                  <a href="">
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    FAQ
+                  </a>
+                  </li>
+                <li>
+                  <a href="">
+                    About
+                  </a>
+                </li>
               </ul>
             </li>
-            <li>
+            <li class="accordion-li">
               <label for="SHOP">
                 <span class="label-name">SHOP</span>
-                <button class="label-icon-btn">
+                <button class="label-icon-btn" onclick="handleClick(this)">
                   <span class="material-icons label-icon">
                     add
                   </span>
@@ -1022,22 +1071,126 @@
               </label>
               <input type="radio" name="accordion" id="SHOP">
               <ul class="content">
-                <!-- <li>Service</li>
-                <li>FAQ</li>
-                <li>About</li> -->
+                <li>
+                  <a href="">
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    FAQ
+                  </a>
+                  </li>
+                <li>
+                  <a href="">
+                    About
+                  </a>
+                </li>
               </ul>
             </li>
           </ul>
         </div>
-        <!-- <div class="twitter-social-widget-container">
+        <div class="twitter-social-widget-container">
           <h3 class="widget-heading">TWITTER WIDGET</h3>
+
+          <div class="twitter-post-container">
+            <div class="twitter-post">
+              <a href="#" class="social-link">
+                <div><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                <div class="twitter-post-details">@PASCO, Duis commodo elit sed nisi molestie</div>
+              </a>
+              <div class="time-arrow-actions">
+                <span class="time-stamp">2 hours ago</span>
+                <span class="material-icons arrow">
+                  arrow_right_alt
+                  </span>
+                  <span class="actions
+                  ">
+                <a href="">Reply</a>
+                <a href="">Retweet</a>
+                <a href="">Favorite</a>
+              </span>
+              </div>
+            </div>
+            <div class="twitter-post">
+              <a href="#" class="social-link">
+                <div><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                <div class="twitter-post-details">@PASCO, Duis commodo elit sed nisi molestie</div>
+              </a>
+              <div class="time-arrow-actions">
+                <span class="time-stamp">2 hours ago</span>
+                <span class="material-icons arrow">
+                  arrow_right_alt
+                  </span>
+                  <span class="actions
+                  ">
+                <a href="">Reply</a>
+                <a href="">Retweet</a>
+                <a href="">Favorite</a>
+              </span>
+              </div>
+            </div>
+            <div class="twitter-post">
+              <a href="#" class="social-link">
+                <div><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                <div class="twitter-post-details">@PASCO, Duis commodo elit sed nisi molestie</div>
+              </a>
+              <div class="time-arrow-actions">
+                <span class="time-stamp">2 hours ago</span>
+                <span class="material-icons arrow">
+                  arrow_right_alt
+                  </span>
+                  <span class="actions
+                  ">
+                <a href="">Reply</a>
+                <a href="">Retweet</a>
+                <a href="">Favorite</a>
+              </span>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="widget-heading">SOCIAL WIDGET</h3>
+
+          <div class="social-media-container">
+            <a href="#">
+              <span class="facebook-icon">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="twitter-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="vk-icon">
+                <i class="fa fa-vk" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="pinterest-icon">
+                <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="t-icon">
+                <i class="fa fa-tumblr" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="dribble-icon">
+                <i class="fa fa-dribbble" aria-hidden="true"></i>
+              </span>
+            </a>
+          </div>
         </div>
         <div class="flicker-widget-container">
           <h3 class="widget-heading">FLICKR WIDGET</h3>
         </div>
         <div class="newsletter-widget-container">
           <h3 class="widget-heading">NEWSLETTER</h3>
-        </div> -->
+        </div>
       </div>
     </div>
   </div>
